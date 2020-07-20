@@ -22,7 +22,7 @@ Documentação API:
 -  Faça uma cópia do repositório na sua máquina
 >
 
-     git clone https://github.com/KarolRodriguespy/AceleraDev_Python.git 
+     https://github.com/KarolRodriguespy/CentraldeerrosCodenation.git
 
 - Crie um novo ambiente virtual e ative 
 

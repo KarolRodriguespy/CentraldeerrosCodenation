@@ -81,8 +81,8 @@ Windows
 
 | Endpoints | Ação  |
 |---|:---:|
-| http://127.0.0.1:8000//rest-auth/registration/  | Cria Um usuário  |
-| http://127.0.0.1:8000//rest-auth/login | Retorna o token que deve ser enviado no header da requisição  |
+| http://127.0.0.1:8000/rest-auth/registration/  | Cria Um usuário  |
+| http://127.0.0.1:8000/rest-auth/login | Retorna o token que deve ser enviado no header da requisição  |
 | http://127.0.0.1:8000/events/create  | Cria o Evento  |
 | http://127.0.0.1:8000/events/list  |  Lista todos os eventos criados |
 | http://127.0.0.1:8000/events/detail/{id} | Detalha um evento através do ID  |

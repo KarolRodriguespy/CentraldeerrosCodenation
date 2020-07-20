@@ -63,6 +63,8 @@ Windows
      user = User.objects.create_user('<yourname>', password='<password>')
      user.save()   
      
+     Ou acesse http://127.0.0.1:8000//rest-auth/registration/  e informe seu username, email e password
+     
 - Rode o servidor 
 
  >
@@ -73,11 +75,19 @@ Windows
 
  >
 
-       Acesse o link: http://projeto-centraldeerros.herokuapp.com/get_token/ e informe o seu usuário e senha no body da requisição
-- Para visualizar os eventos:
+       http://127.0.0.1:8000//rest-auth/login e informe o seu usuário e senha no body da requisição
 
->
+### Endpoints
 
-       Acesse o http://projeto-centraldeerros.herokuapp.com/events/list e informe o seu token no header da sua requisição
+| Endpoints | Ação  |
+|---|:---:|
+| http://127.0.0.1:8000//rest-auth/registration/  | Cria Um usuário  |
+| http://127.0.0.1:8000//rest-auth/login | Retorna o token que deve ser enviado no header da requisição  |
+| http://127.0.0.1:8000/events/create  | Cria o Evento  |
+| http://127.0.0.1:8000/events/list  |  Lista todos os eventos criados |
+| http://127.0.0.1:8000/events/detail/{id} | Detalha um evento através do ID  |
+| http://127.0.0.1:8000/events/update/{id}  | Altera um evento através do ID  |
+| http://127.0.0.1:8000/events/delete/{id}  | Deleta um evento  |
 
-             
+
+[Link de produção](https://centraldeerros-projeto.herokuapp.com/) 

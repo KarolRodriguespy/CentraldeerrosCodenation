@@ -4,7 +4,6 @@ python:
 
 stages:
   - name: test
-  - name: deploy
 
 jobs:
   include:

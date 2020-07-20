@@ -1,11 +1,6 @@
-import collections
-from itertools import groupby
-from operator import itemgetter
 
-from django.db.models import Q
 
 from django.conf import settings
-from django.contrib.auth.models import User
 from django.db import models
 from django.core.validators import validate_ipv4_address
 

@@ -13,6 +13,6 @@ jobs:
   include:
   - stage: test
     name: Unit Test
-    script: pytest --cov=./
+    script: python manage.py test
     after_success:
       - codecov

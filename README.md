@@ -90,4 +90,4 @@ Windows
 | http://127.0.0.1:8000/events/delete/{id}  | Deleta um evento  |
 
 
-[Link de produção](https://centraldeerros-projeto.herokuapp.com/) 
+[Link de produção](https://centraldeerros-projeto.herokuapp.com/)

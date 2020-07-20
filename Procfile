@@ -1,1 +1,1 @@
-web: gunicorn centraldeerros.wsgi --max-requests 1200
+web: gunicorn centraldeerros.wsgi --log-file -

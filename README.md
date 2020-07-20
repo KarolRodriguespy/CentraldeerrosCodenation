@@ -11,9 +11,10 @@ Em projetos modernos é cada vez mais comum o uso de arquiteturas baseadas em se
 * Django Rest Framework
 * Authentication Token
 * Postgress
+* Heroku
 
 
-Documentação API:
+[Documentação API](https://app.swaggerhub.com/apis-docs/KarolRodriguespy/centraldeerros/1.0.0#/)
 
 
 

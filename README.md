@@ -16,6 +16,16 @@ Em projetos modernos é cada vez mais comum o uso de arquiteturas baseadas em se
 
 [Documentação API](https://app.swaggerhub.com/apis-docs/KarolRodriguespy/centraldeerros/1.0.0#/)
 
+[Documentação API](https://app.swaggerhub.com/apis-docs/KarolRodriguespy/centraldeerros/1.0.0) 
+
+[Link produção](https://projeto-centraldeerros.herokuapp.com/)
+
+**Usuário para acesso**
+
+-  *username: admin*
+- *senha: 123456*
+
+
 
 
 ### Como baixar os arquivos
@@ -80,15 +90,14 @@ Windows
 
 ### Endpoints
 
-| Endpoints | Ação  |
-|---|:---:|
-| http://127.0.0.1:8000/rest-auth/registration/  | Cria Um usuário  |
-| http://127.0.0.1:8000/rest-auth/login | Retorna o token que deve ser enviado no header da requisição  |
-| http://127.0.0.1:8000/events/create  | Cria o Evento  |
-| http://127.0.0.1:8000/events/list  |  Lista todos os eventos criados |
-| http://127.0.0.1:8000/events/detail/{id} | Detalha um evento através do ID  |
-| http://127.0.0.1:8000/events/update/{id}  | Altera um evento através do ID  |
-| http://127.0.0.1:8000/events/delete/{id}  | Deleta um evento  |
+| Endpoints | Verbo  |Ação  |
+|---|:---:|:---:|
+| http://127.0.0.1:8000/rest-auth/registration/ |POST | Cria Um usuário  |
+| http://127.0.0.1:8000/rest-auth/login | POST |Retorna o token que deve ser enviado no header da requisição  |
+| http://127.0.0.1:8000/events/create  | POST |Cria o Evento  |
+| http://127.0.0.1:8000/events/list  | GET| Lista todos os eventos criados |
+| http://127.0.0.1:8000/events/detail/{id}| GET | Detalha um evento através do ID  |
+| http://127.0.0.1:8000/events/update/{id} |PUT | Altera um evento através do ID  |
+| http://127.0.0.1:8000/events/delete/{id} |DELETE | Deleta um evento  |
 
 
-[Link de produção](https://centraldeerros-projeto.herokuapp.com/)

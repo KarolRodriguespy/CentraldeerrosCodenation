@@ -14,16 +14,15 @@ Em projetos modernos é cada vez mais comum o uso de arquiteturas baseadas em se
 * Heroku
 
 
-[Documentação API](https://app.swaggerhub.com/apis-docs/KarolRodriguespy/centraldeerros/1.0.0#/)
 
 [Documentação API](https://app.swaggerhub.com/apis-docs/KarolRodriguespy/centraldeerros/1.0.0) 
 
 [Link produção](https://projeto-centraldeerros.herokuapp.com/)
 
-**Usuário para acesso**
+**Usuário para testes em produção**
 
--  *username: admin*
-- *senha: 123456*
+-  *username:* admin
+- *senha:* 123456
 
 
 
